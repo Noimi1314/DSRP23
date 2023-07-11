@@ -2,5 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-.Rproj
+*.Rproj
 .DS_Store
+data/mxmh_survey_results.csv
+*.html
