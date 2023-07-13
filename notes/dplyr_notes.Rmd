@@ -281,5 +281,13 @@ summarise(starwars,
           count = n(),
           .by = c(species,sex))
 ```
+  
+## Renaming  
+rename(data, new_name = old_name)
+```{r}
+new_starwars <- rename(starwars,
+       birthYear = birth_year)
+
+```
 
 
